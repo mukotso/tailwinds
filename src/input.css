@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    text-align: center;
+    background:linear-gradient( to right,rgb(181, 184, 34),rgba(212, 52, 3, 0.472),orange, rgba(245, 7, 19, 0.596));
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 20px; }
+
+    header .profile-image:hover {
+        transform: scale(1.2); }
+        header .profile-image {
+          
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          transition: all .5s; }
+          header .profile-image:hover {
+            transform: scale(1.2); }
+      
+            #footer{
+              text-align: center;
+              background:linear-gradient( to right,rgb(181, 184, 34),rgba(212, 52, 3, 0.472),orange, rgba(245, 7, 19, 0.596));
+              background-size: cover;
+              overflow: hidden;
+              padding-top:20px;
+            }
+            footer {
+              width: 100%;
+              min-height: 20px;
+              padding: 10px 0 20px 10px;
+              
+            }
+          .copyright {
+              top: -4px;
+              font-size:18px;
+              font-weight: 700;
+            }
+          
