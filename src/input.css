@@ -12,4 +12,7 @@ section {
     }
 
    
+          input,textarea{
+              border: 1px solid black;
+          }
           
