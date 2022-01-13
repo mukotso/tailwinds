@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:weight@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+ 
+
+section {
+    background:linear-gradient( to right,rgb(181, 184, 34),rgba(212, 52, 3, 0.472),orange, rgba(245, 7, 19, 0.596));
+    }
+
+   
+          input,textarea{
+              border: 1px solid black;
+          }
+$font: serif;
+$primary-color: hsl(159, 81%, 32%);
+
+body {
+  font-family: $font;
+  color: $primary-color;
+}
