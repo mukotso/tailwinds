@@ -159,7 +159,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/b7d64b4d3b355aed60c2e1a5c7c99494-butterfield.jpeg\");\n\n//# sourceURL=webpack://tailwinds-css/./src/assets/images/butterfield.jpeg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/butterfield.jpeg\");\n\n//# sourceURL=webpack://tailwinds-css/./src/assets/images/butterfield.jpeg?");
 
 /***/ }),
 
@@ -170,17 +170,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/059e3883dfe9a1cc0925e4524b1fec1e-slack3.jpeg\");\n\n//# sourceURL=webpack://tailwinds-css/./src/assets/images/slack3.jpeg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/slack3.jpeg\");\n\n//# sourceURL=webpack://tailwinds-css/./src/assets/images/slack3.jpeg?");
 
 /***/ }),
 
-/***/ "./src/assets/images sync \\.jpeg$":
-/*!******************************************************!*\
-  !*** ./src/assets/images/ sync nonrecursive \.jpeg$ ***!
-  \******************************************************/
+/***/ "./src/assets/images sync \\.(png|jpe?g|svg)$":
+/*!*****************************************************************!*\
+  !*** ./src/assets/images/ sync nonrecursive \.(png|jpe?g|svg)$ ***!
+  \*****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./bg.jpeg\": \"./src/assets/images/bg.jpeg\",\n\t\"./butterfield.jpeg\": \"./src/assets/images/butterfield.jpeg\",\n\t\"./slack3.jpeg\": \"./src/assets/images/slack3.jpeg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets/images sync \\\\.jpeg$\";\n\n//# sourceURL=webpack://tailwinds-css/./src/assets/images/_sync_nonrecursive_\\.jpeg$?");
+eval("var map = {\n\t\"./bg.jpeg\": \"./src/assets/images/bg.jpeg\",\n\t\"./butterfield.jpeg\": \"./src/assets/images/butterfield.jpeg\",\n\t\"./slack3.jpeg\": \"./src/assets/images/slack3.jpeg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets/images sync \\\\.(png|jpe?g|svg)$\";\n\n//# sourceURL=webpack://tailwinds-css/./src/assets/images/_sync_nonrecursive_\\.(png%7Cjpe?");
 
 /***/ }),
 
@@ -191,7 +191,7 @@ eval("var map = {\n\t\"./bg.jpeg\": \"./src/assets/images/bg.jpeg\",\n\t\"./butt
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_output_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/output.css */ \"./src/style/output.css\");\n\n\n// import \"./assets/images/butterfield.jpeg\";\n__webpack_require__(\"./src/assets/images sync \\\\.jpeg$\");\nconsole.log('trying out js');\n\n//# sourceURL=webpack://tailwinds-css/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_output_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/output.css */ \"./src/style/output.css\");\n\n\n// // import \"./assets/images/butterfield.jpeg\";\n// require.context('./assets/images', false, /\\.jpeg$/);\n__webpack_require__(\"./src/assets/images sync \\\\.(png|jpe?g|svg)$\")\nconsole.log('trying out js');\n\n//# sourceURL=webpack://tailwinds-css/./src/index.js?");
 
 /***/ })
 

@@ -24,7 +24,7 @@ module.exports= {
                 loader: 'url-loader',
                 options: { 
                     limit: 8000, // Convert images < 8kb to base64 strings
-                    name: 'images/[hash]-[name].[ext]'
+                    name: 'images/[name].[ext]'
                 } 
             }]
         }
@@ -34,8 +34,8 @@ module.exports= {
      
     
       devServer: {
-        // static: './src',
-      static: path.join(__dirname, "./dist/"),
+        static: './src',
+    //   static: path.join(__dirname, "./dist/"),
        hot: true,
        
       },
